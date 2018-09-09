@@ -33,5 +33,11 @@ Limit using `tabindex` for interactive elements only where your users need to pr
 - Using the tabindex attribute https://developer.paciellogroup.com/blog/2014/08/using-the-tabindex-attribute/#content
 - https://dequeuniversity.com/rules/axe/3.0/tabindex
 
+## Skip links
+
+Skip link is way to enable users to directly jump to the main content of your web page. This feature is really useful for disability useful.
+
+More: https://webaim.org/techniques/skipnav/
+
 ----------
 #### [Previous](001-a11y-overview.md) |  [Table of contents](000-toc.md) | [Next](003-semantics.md)
