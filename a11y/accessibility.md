@@ -55,5 +55,17 @@ Web is for all people regardless of their race, gender, software, language, or a
 
 ### WebAIM WCAG Checklist
 
-It is a high level checklist specifically for web content - https://webaim.org/standards/wcag/checklist
+It is a high level checklist specifically for web content - https://webaim.org/standards/wcag/checklist ([PDF Version](https://webaim.org/standards/wcag/WCAG2Checklist.pdf))
 
+### Focus
+
+WebAIM WCAG 2.0 Checklist 2.1.1 Keyboard
+>  All page functionality is available using the keyboard, unless the functionality cannot be accomplished in any known way using a keyboard (e.g., free hand drawing)
+
+- Focus determines where keyboard events go in the page
+- Built in HTML interactive elements are implicitly focusable meaning they're automatically in tab order + built-in keyboard event handling. For example, input, button, and select.
+- Not all elements are focusable. For example, headers, div, and images.
+- [Flight Booking Form](http://udacity.github.io/ud891/lesson2-focus/01-basic-form/) with disabled mouse inputs
+
+WebAIM WCAG 2.0 Checklist 1.3.2 Meaningful Sequence
+> The reading and navigation order (determined by code order) is logical and intuitive.
