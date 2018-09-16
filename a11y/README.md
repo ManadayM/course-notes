@@ -21,6 +21,7 @@
 - [Bulb Inclusive Design Audit report](https://bulbenergy.github.io/bulb-audit/)
 - [Accessibility Handbook](https://accessibility.oit.ncsu.edu/it-accessibility-at-nc-state/developers/accessibility-handbook/) by NC State University
 - [Cool Trello board](https://trello.com/b/6faoPv94/accessibility-resources) by Sonia Woods
+- [Design Patterns and Custom Widgets - ARIA](https://www.w3.org/TR/wai-aria-practices-1.1/#aria_ex)
 
 ## Useful A11Y Tools
 

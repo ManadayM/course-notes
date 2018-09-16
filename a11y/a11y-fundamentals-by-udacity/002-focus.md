@@ -39,5 +39,10 @@ Skip link is way to enable users to directly jump to the main content of your we
 
 More: https://webaim.org/techniques/skipnav/
 
+## Focus in complex components
+
+- Roving focus - https://www.stefanjudis.com/today-i-learned/roving-tabindex/
+
+
 ----------
 #### [Previous](001-a11y-overview.md) |  [Table of contents](000-toc.md) | [Next](003-semantics.md)
