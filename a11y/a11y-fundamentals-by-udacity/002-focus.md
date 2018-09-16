@@ -43,6 +43,19 @@ More: https://webaim.org/techniques/skipnav/
 
 - Roving focus - https://www.stefanjudis.com/today-i-learned/roving-tabindex/
 
+## Offscreen Content
+
+In cases where elements are hidden from the viewport but they still fall under the tab order. For example, the list of menu items inside a collapsed hamburger menu. We can set its `visibitily` to `none` to remove them from the focus/tab order.
+
+## Modals & Keyboard Traps
+
+> Keyboard focus is never locked or trapped at one particular page element. The user can navigate to and from all navigable page elements using only a keyboard. [[WCAG 2.1.2](https://webaim.org/standards/wcag/checklist#sc2.1.2)]
+
+This rule emphasis that keyboard focus should not be trapped at any one web page element.
+
+However, there are times when the trapped keyboard focus is desirable. For example, Form opened in a modal dialog. Here the desired behviour is that focus should happen only on focusable form elements on the modal. When user submits or clicks on the overlay/grey area outside the modal surface the focus should go back to the actual active element on the web page.
+
+_This lesson presented a very elegant way to achieve roving focus on a `modal` window and return the focus to original element when we're done. Check this video: https://www.youtube.com/watch?v=BoAsayPVogE&feature=youtu.be&t=135._
 
 ----------
 #### [Previous](001-a11y-overview.md) |  [Table of contents](000-toc.md) | [Next](003-semantics.md)
